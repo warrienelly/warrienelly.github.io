@@ -126,7 +126,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Programming Language: Python, Javascript, PostgresSql', 'Machine Learning: NLP, Computer Vision, Tensorflow, MLOPs', 'Development: Git, Docker, RestAPI, Django, Kubernetes, Spark, Elasticsearch', 'Data Analytics: Tableau, Webscrapping, PostgreSql, ETL, Google Sheet, Pandas', 'GIS: Google Earth Engine, Rasterio, QGIS, Mapbox, STAC', 'Cloud Computing: AWS, GCP, Big Query'];
+  const skills = [
+    'Programming Language: Python, Javascript, PostgreSql',
+    'Machine Learning: NLP, Computer Vision, Tensorflow, MLOPs',
+    'Development: Git, Docker, RestAPI, Django, Kubernetes, Spark, Elasticsearch',
+    'Data Analytics: Tableau, Webscrapping, PostgreSql, ETL, Google Sheet, Pandas',
+    'GIS: Google Earth Engine, Rasterio, QGIS, Mapbox, STAC',
+    'Cloud Computing: AWS, GCP, Big Query',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,18 +143,19 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            My name is Warrie, I'm a Data scientist building data-driven product for healthcare and 
-            retail business industry. My interest lies in machine learning, geospatial data technologies, data visualisation
-            &amp; software design/development in solving challenging social good problems.
+              My name is Warrie, I'm a Data scientist building data-driven product for healthcare
+              and retail business industry. My interest lies in machine learning, geospatial data
+              technologies, data visualisation &amp; software design/development in solving
+              challenging social good problems.
             </p>
 
             <p>
-            I currently work as a geospatial data scientist at <a href="https://www.datasciencenigeria.org/">Data Scientists Network, DSN</a> {' '}
-            where I collate data from crowdsourced 
-            community and mined warehouse, design and maintain data from multiple platform using Artificial intelligence to 
-            drive expansion opportunities in retail and healthcare industry. In addition to working as a product owner for {' '}
-             <a href="https://play.google.com/store/apps/details?id=com.app.spoton">SpotOn</a>.
-            
+              I currently work as a geospatial data scientist at{' '}
+              <a href="https://www.datasciencenigeria.org/">Data Scientists Network, DSN</a> where I
+              collate data from crowdsourced community and mined warehouse, design and maintain data
+              from multiple platform using Artificial intelligence to drive expansion opportunities
+              in retail and healthcare industry. In addition to working as a product owner for{' '}
+              <a href="https://play.google.com/store/apps/details?id=com.app.spoton">SpotOn</a>.
             </p>
 
             {/* <p>
@@ -160,31 +168,44 @@ const About = () => {
               experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
               clients.
             </p> */}
-            
-            <p> Pirior to DSN, I worked as an AI research engineer in <a href="https://africa4ai.com/">Afric4AI </a>, building machine learning
-             algorithm and visualizations for social good use case using GIS, Computer vision and NLP technology. 
-            <p>
-              In the past I have had experience working as a machine learning engineer in building a startup . 
-              Yes, have had my own fairshare of wearing many hats and learning from my iterative failure; which was after my computer engineering degree program in 2018.
-            </p>
-            <p>
-            
-            Outside work I engage in the ML Africa community on  <a href="https://zindi.africa/users/Georie/competitions/certificate"> Zindi </a>; as well as {' '}
-            <a href="https://medium.com/@warrie.warrieus"> journaling </a>,{' '}
-            <a href="https://public.tableau.com/app/profile/warrie.warrie#!/?newProfile=&activeTab=0">visualizing</a>,{' '}
-            <a href="https://www.google.com/maps/contrib/114499429832231103945/contribute/@6.536725,3.3005652,12z/data=!3m1!4b1!4m3!8m2!3m1!1e1">localguiding</a>, &amp; {' '} 
-            <a href="https://www.youtube.com/channel/UCl7dVKHRWSItPDhXMv0E9lg">youTubing</a>.
-             I also share beautiful spatial
-             visualzation in <a href=" https://www.linkedin.com/in/warrie-usenobong/recent-activity/shares/">Linkedin</a>.
-            
-            </p>
-            <p>
-            Funfact: In 2016, I won a <a href="https://web.facebook.com/thegreeksinafrica/photos/a.1527727327522935/1550743455221322">Number Marathon</a> reciting 500 digits of 𝛑.
-            </p>
-            
 
-
-
+            <p>
+              {' '}
+              Pirior to DSN, I worked as an AI research engineer in{' '}
+              <a href="https://africa4ai.com/">Afric4AI </a>, building machine learning algorithm
+              and visualizations for social good use case using GIS, Computer vision and NLP
+              technology.
+              <p>
+                In the past I have had experience working as a machine learning engineer in building
+                a startup . Yes, have had my own fairshare of wearing many hats and learning from my
+                iterative failure; which was after my computer engineering degree program in 2018.
+              </p>
+              <p>
+                Outside work I engage in the ML Africa community on{' '}
+                <a href="https://zindi.africa/users/Georie/competitions/certificate"> Zindi </a>; as
+                well as <a href="https://medium.com/@warrie.warrieus"> journaling </a>,{' '}
+                <a href="https://public.tableau.com/app/profile/warrie.warrie#!/?newProfile=&activeTab=0">
+                  visualizing
+                </a>
+                ,{' '}
+                <a href="https://www.google.com/maps/contrib/114499429832231103945/contribute/@6.536725,3.3005652,12z/data=!3m1!4b1!4m3!8m2!3m1!1e1">
+                  localguiding
+                </a>
+                , &amp;{' '}
+                <a href="https://www.youtube.com/channel/UCl7dVKHRWSItPDhXMv0E9lg">youTubing</a>. I
+                also share beautiful spatial visualzation in{' '}
+                <a href=" https://www.linkedin.com/in/warrie-usenobong/recent-activity/shares/">
+                  Linkedin
+                </a>
+                .
+              </p>
+              <p>
+                Funfact: In 2016, I won a{' '}
+                <a href="https://web.facebook.com/thegreeksinafrica/photos/a.1527727327522935/1550743455221322">
+                  Number Marathon
+                </a>{' '}
+                reciting 500 digits of 𝛑.
+              </p>
             </p>
 
             {/* <p>
@@ -200,7 +221,15 @@ const About = () => {
           </div>
 
           <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+            {skills &&
+              skills.map((skill, i) => (
+                <li key={i}>
+                  <p>
+                    <b>{skill.split(':')[0]}:</b>
+                  </p>
+                  {skill.split(':')[1]}
+                </li>
+              ))}
           </ul>
         </StyledText>
 
