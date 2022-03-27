@@ -5,7 +5,7 @@ module.exports = {
     title: 'Warrie Warrie',
     description:
       'Warrie Warrie is a Data Scientist that focuses on building innovative solutions leveraging geospatial data and machine learning as well as creating decision-driven visualization.',
-    siteUrl: 'https://warrienelly.github.io', // No trailing slash allowed!
+    siteUrl: 'https://warrienelly.github.io', // No trailing slash allowed! This should be taken serious
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@warrie_usenobong',
   },
