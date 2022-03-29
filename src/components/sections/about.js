@@ -143,7 +143,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My name is Warrie, I'm a Data scientist building data-driven product for healthcare
+              My name is Warrie, I'm a Data scientist building data-driven product for health
               and retail business industry. My interest lies in machine learning, geospatial data
               technologies, data visualisation &amp; software design/development in solving
               challenging social good problems.
@@ -154,7 +154,7 @@ const About = () => {
               <a href="https://www.datasciencenigeria.org/">Data Scientists Network, DSN</a> where I
               collate data from crowdsourced community and mined warehouse, design and maintain data
               from multiple platform using Artificial intelligence to drive expansion opportunities
-              in retail and healthcare industry. In addition to working as a product owner for{' '}
+              in retail and health industry. In addition to working as a product owner for{' '}
               <a href="https://play.google.com/store/apps/details?id=com.app.spoton">SpotOn</a>.
             </p>
 
